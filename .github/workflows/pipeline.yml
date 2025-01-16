@@ -3,9 +3,8 @@ name: Simple workflow test
 on:
   workflow_dispatch:
 
-
 jobs:
-  job-1:
+  job_1:
     name: the first job
     runs-on: ubuntu-latest
     steps:
