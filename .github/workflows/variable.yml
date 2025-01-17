@@ -27,7 +27,8 @@ jobs:
         if: ${{ contains( env.aString , 'Yellow' ) }}
         run: echo this should fail
       - name: if above fails
-        if: ${{ startsWith(env.aString, 'hello') && always() }}
+        if: ${{ failure() }}
+        #if: ${{ startsWith(env.aString, 'hello') && always() }}
         env:
           format_var: ${{ format('Github {0} {1}', 'is', 'stupid!') }}
         run: | 
