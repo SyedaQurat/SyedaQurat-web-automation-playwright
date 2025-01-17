@@ -1,4 +1,4 @@
-name: workflow to test diff variables
+name: Workflow to test diff variables
 
 env:
   Workflow_Level_Custom_Variable: "2"
@@ -27,7 +27,7 @@ jobs:
         run: this is a null func.
 
       - name: for string
-        if: ${{ contains( env.aString , Yellow ) }}
+        if: ${{ contains( env.aString , 'Yellow' ) }}
         run: this should fail
 
   job_2:
