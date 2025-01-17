@@ -11,7 +11,7 @@ jobs:
     name: the self hosted job runner
     runs-on: self-hosted
     steps:
-      name: step in self hosted runner
+    - name: step in self hosted runner
       run: echo "hello this is my self hosted runner"
   job_1:
     name: the first job
