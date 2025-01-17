@@ -18,7 +18,7 @@ jobs:
       - name: for boolean
         if: ${{ fromJSON(env.aBoolean) }}
         run: |
-          echo this shall not run
+          echo this shall run
           echo ${{ fromJSON(env.aBoolean) }}
 
       - name: for null
@@ -26,8 +26,8 @@ jobs:
         run: echo this is a null func.
 
       - name: for string
-        if: ${{ contains( env.aString , 'Yellow' ) }}
-        run: echos this should fail
+        if: ${{ contains( env.aString , 'hello' ) }}
+        run: echo this should not fail
       - name: if above fails
         if: ${{ failure() && always() }}
         #if: ${{ startsWith(env.aString, 'hello') && always() }}
