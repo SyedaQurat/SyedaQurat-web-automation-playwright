@@ -1,0 +1,19 @@
+name: workflow to test diff variables
+
+env:
+  Custom_Variable: "2"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job_1:
+    name: job to run variable
+    runs-on: macos-latest
+    steps:
+      - name: step 1 to run env variable
+        run: |
+          echo $Custom_Variable
+          echo $ {{ github.actor }}

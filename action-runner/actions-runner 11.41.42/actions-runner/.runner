@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 21,
-  "agentName": "Syedas-Air",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelinesghubeus23.actions.githubusercontent.com/ogWLSES1ZGxTrAXItahzuZcmq9KSMKz3AHeuNqFmti0FGOiNt1/",
-  "gitHubUrl": "https://github.com/SyedaQurat/web-automation-playwright",
-  "workFolder": "_work"
-}
