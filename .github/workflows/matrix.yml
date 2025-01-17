@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        value1: [ a, b ]
+        value1: [ a, b, d ]
         value2: [ 1, 2, 3 ]
         include:
           - value1: c
