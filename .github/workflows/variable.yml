@@ -1,4 +1,4 @@
-name: Workflow to test diff variables
+name: Variable workflow test
 
 on:
   push:
@@ -38,7 +38,9 @@ jobs:
 
       - name: for string fails
         if: ${{ contains( env.aString , 'hellos' ) }}
-        run: echos "this should fail"
+        run: | 
+          echo "this should fail"
+          false
       - name: if above fails
         if: ${{ failure() }}
         env:
