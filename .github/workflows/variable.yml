@@ -19,9 +19,9 @@ jobs:
           Step_Level_Custom_Variable: "6"
         name: step to run custom variable
         run: |
-          echo $env.Workflow_Level_Custom_Variable
-          echo $env.Job_Level_Custom_Variable
-          echo $env.Step_Level_Custom_Variable
+          echo $Workflow_Level_Custom_Variable
+          echo ${{env.Job_Level_Custom_Variable}}
+          echo ${{env.Step_Level_Custom_Variable}}
 
       - name: step to run default variable
         run: |
