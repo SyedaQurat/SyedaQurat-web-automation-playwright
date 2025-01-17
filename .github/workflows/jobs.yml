@@ -1,0 +1,35 @@
+name: Jobs Execution test
+
+on:
+  push:
+    branches:
+      - main
+
+
+
+jobs:
+  deploy-job:
+    name: Deploy it
+    runs-on: macos-latest
+    needs: build_job
+    steps:
+      - name: Test build output
+        run: |
+          echo ${{ needs.build_job.outputs.build-output }}
+        
+        
+
+  build_job:
+    outputs:
+      build-output: ${{ steps.buildStep.outputs.output-one}}
+    name: Build it
+    runs-on: macos-latest
+    container:
+      image: node:16
+    steps:
+      - name: Define output variable
+        id: buildStep
+        run: |
+          env=$(bun --version)
+          echo "output-one=$env" >> $First_Output
+          echo ${{ env }}
