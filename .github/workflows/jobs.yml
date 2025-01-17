@@ -32,4 +32,4 @@ jobs:
         run: |
           env=$(node --version)
           echo "buildOutput=$env" >> "$GITHUB_OUTPUT"
-          echo ${{ env }}
+          echo ${{ GITHUB_OUTPUT }}
