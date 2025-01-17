@@ -17,18 +17,18 @@ jobs:
     steps:
       - name: for boolean
         if: ${{ fromJSON(env.aBoolean) }}
-        run: this shall not run
+        run: echo this shall not run
 
       - name: for null
         if: ${{ env.aNull == null }}
-        run: this is a null func.
+        run: echo this is a null func.
 
       - name: for string
         if: ${{ contains( env.aString , 'Yellow' ) }}
-        run: this should fail
+        run: echo this should fail
       - name: if above fails
         if: ${{ failure() }}
-        run: the "for string" step is passed!
+        run: echo the for string step is passed!
 
   job_2:
     env:
