@@ -16,4 +16,4 @@ jobs:
       - name: step 1 to run env variable
         run: |
           echo $Custom_Variable
-          echo $ {{ github.actor }}
+          echo ${{ github.actor }}
