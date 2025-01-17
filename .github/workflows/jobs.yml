@@ -15,13 +15,13 @@ jobs:
     steps:
       - name: Test build output
         run: |
-          echo ${{ needs.build_job.outputs.build-output }}
+          echo ${{ needs.build_job.outputs.build-output}}
         
         
 
   build_job:
     outputs:
-      build-output: ${{ steps.buildStep.outputs.output-one}}
+      build-output: ${{ steps.buildStep.outputs.buildOutput}}
     name: Build it
     runs-on: ubuntu-latest
     container:
@@ -31,5 +31,5 @@ jobs:
         id: buildStep
         run: |
           env=$(node --version)
-          echo "output-one=$env" >> $First_Output
+          echo "buildOutput=$env" >> "$GITHUB_OUTPUT"
           echo ${{ env }}
