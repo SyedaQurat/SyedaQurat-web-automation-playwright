@@ -8,6 +8,29 @@ on:
 
 
 jobs:
+  concurrency-job1:
+    name: concurrency job1
+    runs-on: ubuntu-latest
+    concurrency:
+      group: test
+    steps:
+      - name: Hi
+        run: | 
+          sleep 10
+          echo Hi 1
+
+  concurrency-job2:
+    name: concurrency job2
+    runs-on: ubuntu-latest
+    concurrency:
+      group: test
+    steps:
+      - name: Hiii
+        run: |
+          sleep 10
+          echo Hi 2
+
+
   deploy-job:
     name: Deploy it
     runs-on: ubuntu-latest
