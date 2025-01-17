@@ -1,7 +1,7 @@
 name: workflow to test diff variables
 
 env:
-  Custom_Variable: "2"
+  Workflow_Level_Custom_Variable: "2"
 
 on:
   push:
@@ -10,12 +10,27 @@ on:
 
 jobs:
   job_1:
+    env:
+      Job_Level_Custom_Variable: "4"
     name: job to run variable
     runs-on: macos-latest
     steps:
-      - name: step 1 to run env variable
+      - env:
+          Step_Level_Custom_Variable: "6"
+        name: step to run custom variable
         run: |
-          echo $Custom_Variable
+          echo $Workflow_Level_Custom_Variable
+          echo $Job_Level_Custom_Variable
+          echo $Step_Level_Custom_Variable
+
+      - name: step to run default variable
+        run: |
           echo ${{ github.actor }}
+
+      - name: step to run secret
+        run: |
           echo ${{ secrets.SECRET }}
-          echo ${{ vars.CONF_VARIABLE }}
+
+      - name: step to run configuration variable
+        run: |
+         echo ${{ vars.CONF_VARIABLE }}
