@@ -1,0 +1,24 @@
+name: Matrix test
+
+on:
+  push
+
+
+jobs:
+  matrix-strategy-job:
+    id: maxStrategy
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        value1: [ a, b ]
+        value2: [ 1, 2, 3 ]
+        include:
+          - value1: c
+            value2: 4
+        exclude:
+          - value2: 3
+    steps:
+      - name: test
+        run: | 
+          echo this will display ${{ matrix.value1 }}
+          echo this will display ${{ matrix.value2 }}
