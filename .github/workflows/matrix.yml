@@ -6,7 +6,6 @@ on:
 
 jobs:
   matrix-strategy-job:
-    id: maxStrategy
     runs-on: ubuntu-latest
     strategy:
       matrix:
