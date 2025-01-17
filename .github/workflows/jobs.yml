@@ -32,4 +32,5 @@ jobs:
         run: |
           env=$(node --version)
           echo "buildOutput=$env" >> "$GITHUB_OUTPUT"
-          echo ${{ $GITHUB_OUTPUT }}
+      - name: Print the output
+        run: echo "The output is ${{ steps.buildStep.outputs.buildOutput }}"
