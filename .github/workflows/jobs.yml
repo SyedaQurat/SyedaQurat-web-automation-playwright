@@ -30,6 +30,6 @@ jobs:
       - name: Define output variable
         id: buildStep
         run: |
-          env=$(bun --version)
+          env=$(node --version)
           echo "output-one=$env" >> $First_Output
           echo ${{ env }}
