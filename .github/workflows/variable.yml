@@ -25,7 +25,7 @@ jobs:
 
       - name: for string
         if: ${{ contains( env.aString , 'Yellow' ) }}
-        run: echo this should fail
+        run: echos this should fail
       - name: if above fails
         if: ${{ failure() }}
         #if: ${{ startsWith(env.aString, 'hello') && always() }}
