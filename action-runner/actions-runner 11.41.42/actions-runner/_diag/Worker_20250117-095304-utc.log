@@ -1,0 +1,1501 @@
+[2025-01-17 09:53:04Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO HostContext] Well known config file 'Credentials': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO HostContext] Well known config file 'Runner': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.runner'
+[2025-01-17 09:53:04Z INFO Worker] Version: 2.321.0
+[2025-01-17 09:53:04Z INFO Worker] Commit: e249007931b7c8e857797fa259c167f0bd4f997a
+[2025-01-17 09:53:04Z INFO Worker] Culture: en-US
+[2025-01-17 09:53:04Z INFO Worker] UI Culture: en-US
+[2025-01-17 09:53:04Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-01-17 09:53:04Z INFO ProcessChannel] Receiving message of length 24016, with hash '249d4c64f310d3ac3e541894d8547593062363c4b016ad9dcfdd581c48d17bf5'
+[2025-01-17 09:53:04Z INFO Worker] Message received.
+[2025-01-17 09:53:04Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/pipeline.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 14,
+        "col": 13,
+        "lit": "step in self hosted runner"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 15,
+              "col": 12,
+              "lit": "echo \"hello this is my self hosted runner\""
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "6def5d19-b126-5b08-e5e5-e399e4192ef6",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2025-01-17 09:53:02+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "2"
+    },
+    "build.containerId": {
+      "value": "59464334"
+    },
+    "build.allowCreateArtifacts": {
+      "value": "False"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/pipeline.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "the self hosted job runner"
+    },
+    "system.phaseId": {
+      "value": "1eb4fff0-a328-5ca6-040e-fea3ff749f8e"
+    },
+    "system.phaseName": {
+      "value": "self_hosted_job"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "self_hosted_job.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "self_hosted_job"
+    },
+    "system.jobDisplayName": {
+      "value": "the self hosted job runner"
+    },
+    "system.jobId": {
+      "value": "df841f87-2cc2-5411-13cb-f5162ada7fd7"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "True"
+    },
+    "system.testDotNet8Compatibility": {
+      "value": "true"
+    },
+    "system.dotNet8CompatibilityOutputLength": {
+      "value": "200"
+    },
+    "system.dotNet8CompatibilityOutputPattern": {
+      "value": "GLIBCXX"
+    },
+    "system.dotNet8CompatibilityWarning": {
+      "value": "The Actions runner will no longer support your OS version on November 1, 2024. Please upgrade to a supported version. For information, refer https://github.blog/changelog/2024-08-19-notice-of-upcoming-deprecations-and-breaking-changes-in-github-actions-runners/"
+    },
+    "system.orchestrationId": {
+      "value": "5f4f7336-63bd-467e-a641-47be0d71d7a8.self_hosted_job.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 41,
+    "planId": "5f4f7336-63bd-467e-a641-47be0d71d7a8",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/2",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "web-automation-playwright"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "SyedaQurat"
+    }
+  },
+  "timeline": {
+    "id": "5f4f7336-63bd-467e-a641-47be0d71d7a8",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "df841f87-2cc2-5411-13cb-f5162ada7fd7",
+  "jobDisplayName": "the self hosted job runner",
+  "jobName": "__default",
+  "requestId": 3,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "40c2aa98-7c7b-451c-bb07-00e0bdac1d0d",
+          "ServerName": "ogWLSES1ZGxTrAXItahzuZcmq9KSMKz3AHeuNqFmti0FGOiNt1",
+          "CacheServerUrl": "https://acghubeus1.actions.githubusercontent.com/ogWLSES1ZGxTrAXItahzuZcmq9KSMKz3AHeuNqFmti0FGOiNt1/",
+          "FeedStreamUrl": "https://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "ConnectivityChecks": "[\"https://acghubeus0.actions.githubusercontent.com/_apis/health\",\"https://results-receiver.actions.githubusercontent.com/health\",\"https://pkg.actions.githubusercontent.com\",\"https://actions-results-receiver-production.githubapp.com/health\",\"https://pipelinesghubeus23.actions.githubusercontent.com/_apis/health\"]"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelinesghubeus23.actions.githubusercontent.com/ogWLSES1ZGxTrAXItahzuZcmq9KSMKz3AHeuNqFmti0FGOiNt1/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+        },
+        {
+          "k": "repository",
+          "v": "SyedaQurat/web-automation-playwright"
+        },
+        {
+          "k": "repository_owner",
+          "v": "SyedaQurat"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "39157254"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/SyedaQurat/web-automation-playwright.git"
+        },
+        {
+          "k": "run_id",
+          "v": "12826692308"
+        },
+        {
+          "k": "run_number",
+          "v": "5"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "enterprise-managed-business-id",
+          "v": ""
+        },
+        {
+          "k": "repository_id",
+          "v": "879659334"
+        },
+        {
+          "k": "actor_id",
+          "v": "39157254"
+        },
+        {
+          "k": "actor",
+          "v": "SyedaQurat"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "SyedaQurat"
+        },
+        {
+          "k": "workflow",
+          "v": "Simple workflow test"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "7d1a00ae49eb74de0de1899447b9186e574d7f3f"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "syeda.annie.asad@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Syeda"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "syeda.annie.asad@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Syeda"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+                        },
+                        {
+                          "k": "message",
+                          "v": "added - in the name for steps"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2025-01-17T11:52:55+02:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "48b27e097395bc6eb398568117d95bc9eff4ceac"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/SyedaQurat/web-automation-playwright/commit/e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/SyedaQurat/web-automation-playwright/compare/7d1a00ae49eb...e481ee9d224f"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "syeda.annie.asad@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Syeda"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "syeda.annie.asad@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Syeda"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+                    },
+                    {
+                      "k": "message",
+                      "v": "added - in the name for steps"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2025-01-17T11:52:55+02:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "48b27e097395bc6eb398568117d95bc9eff4ceac"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/SyedaQurat/web-automation-playwright/commit/e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "39157254+SyedaQurat@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "SyedaQurat"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/SyedaQurat/web-automation-playwright.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1730110792.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "Web automation using Playwright"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "SyedaQurat/web-automation-playwright"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/SyedaQurat/web-automation-playwright.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": ""
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/SyedaQurat/web-automation-playwright"
+                    },
+                    {
+                      "k": "id",
+                      "v": 879659334.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "HTML"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "web-automation-playwright"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDONG6JRg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/39157254?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "39157254+SyedaQurat@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/SyedaQurat/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/SyedaQurat/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/SyedaQurat/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/SyedaQurat/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/SyedaQurat"
+                          },
+                          {
+                            "k": "id",
+                            "v": 39157254.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "SyedaQurat"
+                          },
+                          {
+                            "k": "name",
+                            "v": "SyedaQurat"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjM5MTU3MjU0"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/SyedaQurat/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/SyedaQurat/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/SyedaQurat/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/SyedaQurat/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/SyedaQurat/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/SyedaQurat"
+                          },
+                          {
+                            "k": "user_view_type",
+                            "v": "public"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1737107578.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 21643.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:SyedaQurat/web-automation-playwright.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/SyedaQurat/web-automation-playwright"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/SyedaQurat/web-automation-playwright/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2025-01-17T09:51:50Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/SyedaQurat/web-automation-playwright"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/39157254?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/SyedaQurat/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/SyedaQurat/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/SyedaQurat/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/SyedaQurat/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/SyedaQurat"
+                    },
+                    {
+                      "k": "id",
+                      "v": 39157254.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "SyedaQurat"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjM5MTU3MjU0"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/SyedaQurat/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/SyedaQurat/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/SyedaQurat/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/SyedaQurat/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/SyedaQurat/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/SyedaQurat"
+                    },
+                    {
+                      "k": "user_view_type",
+                      "v": "public"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "SyedaQurat/web-automation-playwright/.github/workflows/pipeline.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "e481ee9d224f73c5ecad76a41a0f38e9ada9ef61"
+        }
+      ]
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_stream_logs_via_results_service",
+          "v": true
+        },
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        },
+        {
+          "k": "actions_uses_cache_service_v2",
+          "v": false
+        },
+        {
+          "k": "block_artifacts_v3_exempted",
+          "v": false
+        },
+        {
+          "k": "larger_runners_custom_image_generation",
+          "v": false
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "EndpointsOverride": null
+  }
+}
+[2025-01-17 09:53:04Z INFO JobRunner] Job ID df841f87-2cc2-5411-13cb-f5162ada7fd7
+[2025-01-17 09:53:04Z INFO ConfigurationStore] currentAssemblyLocation: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin/Runner.Worker.dll
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO ConfigurationStore] binPath: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO ConfigurationStore] RootFolder: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO HostContext] Well known config file 'Runner': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.runner'
+[2025-01-17 09:53:04Z INFO ConfigurationStore] ConfigFilePath: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.runner
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO HostContext] Well known config file 'Credentials': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials'
+[2025-01-17 09:53:04Z INFO ConfigurationStore] CredFilePath: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials_migrated'
+[2025-01-17 09:53:04Z INFO ConfigurationStore] MigratedCredFilePath: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials_migrated
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:04Z INFO HostContext] Well known config file 'Service': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.service'
+[2025-01-17 09:53:04Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.service
+[2025-01-17 09:53:04Z INFO ConfigurationStore] Read setting file: 314 chars
+[2025-01-17 09:53:04Z INFO JobRunner] Creating job server with URL: https://pipelinesghubeus23.actions.githubusercontent.com/ogWLSES1ZGxTrAXItahzuZcmq9KSMKz3AHeuNqFmti0FGOiNt1/
+[2025-01-17 09:53:04Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-01-17 09:53:04Z INFO Worker] Listening for cancel message from the channel.
+[2025-01-17 09:53:04Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-01-17 09:53:05Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-01-17 09:53:05Z INFO JobServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2025-01-17 09:53:05Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2025-01-17 09:53:05Z INFO JobServerQueue] Initializing results client
+[2025-01-17 09:53:05Z INFO JobServerQueue] Start process web console line queue.
+[2025-01-17 09:53:05Z INFO JobServerQueue] Start process file upload queue.
+[2025-01-17 09:53:05Z INFO JobServerQueue] Start results file upload queue.
+[2025-01-17 09:53:05Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-01-17 09:53:05Z INFO JobServerQueue] Start process timeline update queue.
+[2025-01-17 09:53:05Z INFO ExecutionContext] Initialize GitHub context
+[2025-01-17 09:53:05Z INFO ExecutionContext] Initialize Env context
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO JobRunner] Starting the job execution context.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO JobRunner] Validating directory permissions for: '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Tools': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_tool'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Temp': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp'
+[2025-01-17 09:53:05Z INFO JobRunner] Getting job extension.
+[2025-01-17 09:53:05Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known config file 'Credentials': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known config file 'SetupInfo': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.setup_info'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO PipelineDirectoryManager] Loading tracking config if exists: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_PipelineMapping/SyedaQurat/web-automation-playwright/PipelineFolder.json
+[2025-01-17 09:53:05Z INFO PipelineDirectoryManager] Creating a new tracking config file.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO PipelineDirectoryManager] Creating pipeline directory.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO PipelineDirectoryManager] Creating workspace directory.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO JobExtension] Downloading actions
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Actions': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_actions'
+[2025-01-17 09:53:05Z INFO JobExtension] Adding .
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO JobExtension] Total accessible running process: 248.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO JobExtension] Start checking server connectivity.
+[2025-01-17 09:53:05Z INFO JobExtension] Check server connectivity for https://acghubeus0.actions.githubusercontent.com/_apis/health.
+[2025-01-17 09:53:05Z INFO JobExtension] Check server connectivity for https://results-receiver.actions.githubusercontent.com/health.
+[2025-01-17 09:53:05Z INFO JobExtension] Check server connectivity for https://pkg.actions.githubusercontent.com.
+[2025-01-17 09:53:05Z INFO JobExtension] Check server connectivity for https://actions-results-receiver-production.githubapp.com/health.
+[2025-01-17 09:53:05Z INFO JobExtension] Check server connectivity for https://pipelinesghubeus23.actions.githubusercontent.com/_apis/health.
+[2025-01-17 09:53:05Z INFO JobExtension] Start checking service connectivity in background.
+[2025-01-17 09:53:05Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "1a7232aa-f039-47f9-a4f6-157a571d6a98",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-01-17T09:53:05.453471Z",
+  "finishTime": "2025-01-17T09:53:05.481217Z"
+}.
+[2025-01-17 09:53:05Z INFO JobRunner] Total job steps: 1.
+[2025-01-17 09:53:05Z INFO JobRunner] Run all job steps.
+[2025-01-17 09:53:05Z INFO StepsRunner] Processing step: DisplayName='step in self hosted runner'
+[2025-01-17 09:53:05Z INFO StepsRunner] Evaluating: success()
+[2025-01-17 09:53:05Z INFO StepsRunner] Result: true
+[2025-01-17 09:53:05Z INFO StepsRunner] Starting the step.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Temp': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp'
+[2025-01-17 09:53:05Z INFO ExecutionContext] Write event payload to /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp/_github_workflow/event.json
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Temp': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp'
+[2025-01-17 09:53:05Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command error
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command group
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-01-17 09:53:05Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-01-17 09:53:05Z INFO ScriptHandler] Which2: 'bash'
+[2025-01-17 09:53:05Z INFO ScriptHandler] Location: '/bin/bash'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Work': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Temp': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp'
+[2025-01-17 09:53:05Z INFO ScriptHandler] Which2: 'bash'
+[2025-01-17 09:53:05Z INFO ScriptHandler] Location: '/bin/bash'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper] Starting process:
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Arguments: '-e /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp/d7491573-f1b6-4fc0-ad0f-81730ab5fcf9.sh'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Working directory: '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/web-automation-playwright/web-automation-playwright'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper] Process started with process id 26660, waiting for process exit.
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-01-17 09:53:05Z INFO ProcessInvokerWrapper] Finished process 26660 with exit code 1, and elapsed time 00:00:00.0278514.
+[2025-01-17 09:53:05Z INFO CreateStepSummaryCommand] Step Summary file (/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp/_runner_file_commands/step_summary_933bd3db-7273-4769-93bf-b2b87928cf63) is empty; skipping attachment upload
+[2025-01-17 09:53:05Z INFO StepsRunner] Step result: Failed
+[2025-01-17 09:53:05Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "sh",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "6def5d19-b126-5b08-e5e5-e399e4192ef6",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-01-17T09:53:05.485247Z",
+  "finishTime": "2025-01-17T09:53:05.544565Z"
+}.
+[2025-01-17 09:53:05Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-01-17 09:53:05Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-01-17 09:53:05Z INFO JobRunner] Finalize job.
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:05Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:05Z INFO JobExtension] Initialize Env context
+[2025-01-17 09:53:05Z INFO JobExtension] Initialize steps context
+[2025-01-17 09:53:05Z INFO JobExtension] Total accessible running process: 248.
+[2025-01-17 09:53:05Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2025-01-17 09:53:06Z INFO JobServer] Successfully started websocket client.
+[2025-01-17 09:53:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record '1a7232aa-f039-47f9-a4f6-157a571d6a98', success rate: 1/1.
+[2025-01-17 09:53:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record '6def5d19-b126-5b08-e5e5-e399e4192ef6', success rate: 1/1.
+[2025-01-17 09:53:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f72aaf9c-206e-443e-bd22-a3d6dcc700e8', success rate: 1/1.
+[2025-01-17 09:53:06Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2025-01-17 09:53:06Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2025-01-17 09:53:06Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2025-01-17 09:53:06Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2025-01-17 09:53:06Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2025-01-17 09:53:06Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "f72aaf9c-206e-443e-bd22-a3d6dcc700e8",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-01-17T09:53:05.547531Z",
+  "finishTime": "2025-01-17T09:53:06.060083Z"
+}.
+[2025-01-17 09:53:06Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-01-17 09:53:06Z INFO JobRunner] Completing the job execution context.
+[2025-01-17 09:53:06Z INFO JobRunner] Shutting down the job server queue.
+[2025-01-17 09:53:06Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-01-17 09:53:06Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2025-01-17 09:53:07Z INFO JobServerQueue] All queue process task stopped.
+[2025-01-17 09:53:07Z INFO JobServerQueue] Web console line queue drained.
+[2025-01-17 09:53:07Z INFO JobServerQueue] Uploading 4 files in one shot.
+[2025-01-17 09:53:08Z INFO JobServerQueue] Try to upload 4 log files or attachments, success rate: 4/4.
+[2025-01-17 09:53:08Z INFO JobServerQueue] File upload queue drained.
+[2025-01-17 09:53:08Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-01-17 09:53:08Z INFO JobServerQueue] Uploading 4 file(s) in one shot through results service.
+[2025-01-17 09:53:08Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-01-17 09:53:08Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag/blocks/5f4f7336-63bd-467e-a641-47be0d71d7a8_1a7232aa-f039-47f9-a4f6-157a571d6a98.1
+[2025-01-17 09:53:09Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-01-17 09:53:09Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag/blocks/5f4f7336-63bd-467e-a641-47be0d71d7a8_6def5d19-b126-5b08-e5e5-e399e4192ef6.1
+[2025-01-17 09:53:10Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-01-17 09:53:10Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag/blocks/5f4f7336-63bd-467e-a641-47be0d71d7a8_f72aaf9c-206e-443e-bd22-a3d6dcc700e8.1
+[2025-01-17 09:53:10Z INFO JobServerQueue] Got a job log file to send to results service.
+[2025-01-17 09:53:10Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag/blocks/5f4f7336-63bd-467e-a641-47be0d71d7a8_df841f87-2cc2-5411-13cb-f5162ada7fd7.1
+[2025-01-17 09:53:10Z INFO JobServerQueue] Tried to upload 4 file(s) to results, success rate: 4/4.
+[2025-01-17 09:53:10Z INFO JobServerQueue] Results upload queue drained.
+[2025-01-17 09:53:11Z INFO JobServerQueue] Timeline update queue drained.
+[2025-01-17 09:53:11Z INFO JobServerQueue] Disposing job server ...
+[2025-01-17 09:53:11Z INFO JobServerQueue] Disposing results server ...
+[2025-01-17 09:53:11Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-01-17 09:53:11Z INFO JobServerQueue] Actions upload time: 1258 ms, Result upload time: 2390 ms
+[2025-01-17 09:53:11Z INFO TempDirectoryManager] Cleaning runner temp folder: /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_work/_temp
+[2025-01-17 09:53:11Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:11Z INFO HostContext] Well known directory 'Root': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner'
+[2025-01-17 09:53:11Z INFO HostContext] Well known directory 'Diag': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag'
+[2025-01-17 09:53:11Z INFO HostContext] Well known config file 'Telemetry': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/_diag/.telemetry'
+[2025-01-17 09:53:11Z INFO JobRunner] Raising job completed event
+[2025-01-17 09:53:11Z INFO Worker] Job completed.

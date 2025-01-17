@@ -117,3 +117,52 @@
 [2025-01-17 09:46:24Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
 [2025-01-17 09:46:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials_rsaparams
 [2025-01-17 09:46:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-01-17 09:53:02Z INFO MessageListener] Message '7813945979170178972' received from session 'e225b130-4d87-405a-a3b2-57c0fdf811fd'.
+[2025-01-17 09:53:02Z INFO ConfigurationStore] HasCredentials()
+[2025-01-17 09:53:02Z INFO ConfigurationStore] stored True
+[2025-01-17 09:53:02Z INFO CredentialManager] GetCredentialProvider
+[2025-01-17 09:53:02Z INFO CredentialManager] Creating type OAuth
+[2025-01-17 09:53:02Z INFO CredentialManager] Creating credential type: OAuth
+[2025-01-17 09:53:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials_rsaparams
+[2025-01-17 09:53:02Z INFO ActionsRunServer] EstablishVssConnection
+[2025-01-17 09:53:02Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2025-01-17 09:53:02Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-01-17 09:53:03Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-01-17 09:53:03Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials_rsaparams
+[2025-01-17 09:53:03Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/.credentials_rsaparams
+[2025-01-17 09:53:03Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-01-17 09:53:03Z INFO JobDispatcher] Job request 3 for plan 5f4f7336-63bd-467e-a641-47be0d71d7a8 job df841f87-2cc2-5411-13cb-f5162ada7fd7 received.
+[2025-01-17 09:53:03Z INFO JobDispatcher] Pull OrchestrationId 5f4f7336-63bd-467e-a641-47be0d71d7a8.self_hosted_job.__default from JWT claims
+[2025-01-17 09:53:03Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-01-17 09:53:03Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-01-17 09:53:03Z INFO Terminal] WRITE LINE: 2025-01-17 09:53:03Z: Running job: the self hosted job runner
+[2025-01-17 09:53:03Z INFO JobDispatcher] Start renew job request 3 for job df841f87-2cc2-5411-13cb-f5162ada7fd7.
+[2025-01-17 09:53:04Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 1/17/2025 10:03:04 AM
+[2025-01-17 09:53:04Z INFO HostContext] Well known directory 'Bin': '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper] Starting process:
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   File name: '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin/Runner.Worker'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 150 153'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Working directory: '/Users/syedaquratulainasad/IdeaProjects/web-automation-playwright/actions-runner 11.41.42/actions-runner/bin'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-01-17 09:53:04Z INFO ProcessInvokerWrapper] Process started with process id 26659, waiting for process exit.
+[2025-01-17 09:53:04Z INFO JobDispatcher] Send job request message to worker for job df841f87-2cc2-5411-13cb-f5162ada7fd7.
+[2025-01-17 09:53:04Z INFO ProcessChannel] Sending message of length 24016, with hash '249d4c64f310d3ac3e541894d8547593062363c4b016ad9dcfdd581c48d17bf5'
+[2025-01-17 09:53:04Z INFO JobNotification] Entering JobStarted Notification
+[2025-01-17 09:53:04Z INFO JobNotification] Entering StartMonitor
+[2025-01-17 09:53:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-01-17 09:53:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-01-17 09:53:11Z INFO ProcessInvokerWrapper] Finished process 26659 with exit code 102, and elapsed time 00:00:07.0110930.
+[2025-01-17 09:53:11Z INFO JobDispatcher] Worker finished for job df841f87-2cc2-5411-13cb-f5162ada7fd7. Code: 102
+[2025-01-17 09:53:11Z INFO JobDispatcher] finish job request for job df841f87-2cc2-5411-13cb-f5162ada7fd7 with result: Failed
+[2025-01-17 09:53:11Z INFO Terminal] WRITE LINE: 2025-01-17 09:53:11Z: Job the self hosted job runner completed with result: Failed
+[2025-01-17 09:53:11Z INFO JobDispatcher] Stop renew job request for job df841f87-2cc2-5411-13cb-f5162ada7fd7.
+[2025-01-17 09:53:11Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 3.
+[2025-01-17 09:53:11Z INFO JobNotification] Entering JobCompleted Notification
+[2025-01-17 09:53:11Z INFO JobNotification] Entering EndMonitor
+[2025-01-17 09:53:11Z INFO MessageListener] Received job status event. JobState: Online

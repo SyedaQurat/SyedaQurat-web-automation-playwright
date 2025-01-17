@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "SyedaQurat/web-automation-playwright",
+  "pipelineDirectory": "web-automation-playwright",
+  "workspaceDirectory": "web-automation-playwright/web-automation-playwright",
+  "repositories": {
+    "SyedaQurat/web-automation-playwright": {
+      "repositoryPath": "web-automation-playwright/web-automation-playwright",
+      "lastRunOn": "01/17/2025 11:53:05 +02:00"
+    }
+  },
+  "lastRunOn": "01/17/2025 11:53:05 +02:00"
+}
