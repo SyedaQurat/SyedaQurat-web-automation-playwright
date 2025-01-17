@@ -28,7 +28,13 @@ jobs:
         run: echo this should fail
       - name: if above fails
         if: ${{ failure() }}
-        run: echo the for string step is passed!
+        env:
+          format_var: ${{ format('Github {0} {1}, is, stupid!') }}
+        run: | 
+          echo the for string step is passed!
+          echo ${{ env.format_var }}
+
+
 
   job_2:
     env:
