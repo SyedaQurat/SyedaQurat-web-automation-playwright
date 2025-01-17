@@ -37,7 +37,7 @@ jobs:
           echo ${{ env.format_var_success }}
 
       - name: for string fails
-        if: ${{ contains( env.aString , 'hellos' ) }}
+        if: ${{ contains( env.aString , 'hello' ) }}
         run: | 
           echo "this should fail"
           false
