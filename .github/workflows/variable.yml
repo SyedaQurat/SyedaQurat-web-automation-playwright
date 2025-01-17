@@ -11,6 +11,27 @@ on:
 jobs:
   job_1:
     env:
+     aBoolean: ${{ false }}
+     aNull: ${{ null }}
+     aNumber: ${{ 42 }}
+     aString: hello world
+    name: job to test expressions
+    runs-on: macos-latest
+    steps:
+      - name: for boolean
+        if: ${{ fromJSON(env.aBoolean) }}
+        run: this shall not run
+
+      - name: for null
+        if: ${{ env.aNull == null }}
+        run: this is a null func.
+
+      - name: for string
+        if: ${{ contains( env.aString , Yellow ) }}
+        run: this should fail
+
+  job_2:
+    env:
       Job_Level_Custom_Variable: "4"
     name: job to run variable
     runs-on: macos-latest
