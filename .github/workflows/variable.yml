@@ -8,7 +8,7 @@ on:
 jobs:
   job_1:
     env:
-     aBoolean: ${{ false }}
+     aBoolean: ${{ true }}
      aNull: ${{ null }}
      aNumber: ${{ 42 }}
      aString: hello world
