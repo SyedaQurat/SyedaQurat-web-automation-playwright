@@ -14,6 +14,7 @@ jobs:
      aString: hello world
     name: job to test expressions
     runs-on: macos-latest
+    if: false
     steps:
       - name: for boolean
         if: ${{ fromJSON(env.aBoolean) }}
@@ -33,20 +34,20 @@ jobs:
         env:
           format_var_success: ${{ format('Github {0} {1}', 'is', 'awesome!') }}
         run: | 
-          echo the for string step is passed!
+          echo the string pass runs!
           echo ${{ env.format_var_success }}
 
       - name: for string fails
         if: ${{ contains( env.aString , 'hello' ) }}
         run: | 
-          echo "this should fail"
+          echo this should fail
           false
       - name: if above fails
         if: ${{ failure() }}
         env:
           format_var_fail: ${{ format('Github {0} {1}', 'is', 'stupid!') }}
         run: |
-          echo the for string step is passed!
+          echo the string fails runs!
           echo ${{ env.format_var_fail }}
           
           
@@ -56,6 +57,7 @@ jobs:
       Job_Level_Custom_Variable: "4"
     name: job to run variable
     runs-on: macos-latest
+    if: false
     steps:
       - env:
           Step_Level_Custom_Variable: "6"

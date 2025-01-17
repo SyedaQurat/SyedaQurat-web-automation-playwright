@@ -10,7 +10,7 @@ on:
 jobs:
   deploy-job:
     name: Deploy it
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     needs: build_job
     steps:
       - name: Test build output
@@ -23,7 +23,7 @@ jobs:
     outputs:
       build-output: ${{ steps.buildStep.outputs.output-one}}
     name: Build it
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     container:
       image: node:16
     steps:
