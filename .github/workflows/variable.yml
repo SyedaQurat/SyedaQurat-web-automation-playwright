@@ -25,19 +25,29 @@ jobs:
         if: ${{ env.aNull == null }}
         run: echo this is a null func.
 
-      - name: for string
+      - name: for string pass
         if: ${{ contains( env.aString , 'hello' ) }}
         run: echo this should not fail
-      - name: if above fails
+      - name: if above pass
         if: ${{ success() && always() }}
-        #if: ${{ startsWith(env.aString, 'hello') && always() }}
         env:
-          format_var: ${{ format('Github {0} {1}', 'is', 'stupid!') }}
+          format_var_success: ${{ format('Github {0} {1}', 'is', 'awesome!') }}
         run: | 
           echo the for string step is passed!
-          echo ${{ env.format_var }}
+          echo ${{ env.format_var_success }}
 
-
+      - name: for string fails
+        if: ${{ contains( env.aString , 'hellos' ) }}
+        run: echos "this should fail"
+      - name: if above fails
+        if: ${{ failure() }}
+        env:
+          format_var_fail: ${{ format('Github {0} {1}', 'is', 'stupid!') }}
+        run: |
+          echo the for string step is passed!
+          echo ${{ env.format_var_fail }}
+          
+          
 
   job_2:
     env:
