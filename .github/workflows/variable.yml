@@ -17,7 +17,9 @@ jobs:
     steps:
       - name: for boolean
         if: ${{ fromJSON(env.aBoolean) }}
-        run: echo this shall not run
+        run: |
+          echo this shall not run
+          echo ${{ fromJSON(env.aBoolean) }}
 
       - name: for null
         if: ${{ env.aNull == null }}
